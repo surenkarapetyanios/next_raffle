@@ -1,0 +1,17 @@
+surenkarapetyan@surens-macm1 next_js % yarn next export                        
+yarn run v1.22.19
+$ /Users/surenkarapetyan/Development/next_js/node_modules/.bin/next export
+warn  - SWC minify release candidate enabled. https://nextjs.org/docs/messages/swc-minify-enabled
+info  - using build directory: /Users/surenkarapetyan/Development/next_js/.next
+info  - Copying "static build" directory
+info  - No "exportPathMap" found in "/Users/surenkarapetyan/Development/next_js/next.config.js". Generating map from "./pages"
+Error: Image Optimization using Next.js' default loader is not compatible with `next export`.
+  Possible solutions:
+    - Use `next start` to run a server, which includes the Image Optimization API.
+    - Use any provider which supports Image Optimization (like Vercel).
+    - Configure a third-party loader in `next.config.js`.
+    - Use the `loader` prop for `next/image`.
+  Read more: https://nextjs.org/docs/messages/export-image-api
+    at /Users/surenkarapetyan/Development/next_js/node_modules/next/dist/export/index.js:156:23
+    at async Span.traceAsyncFn (/Users/surenkarapetyan/Development/next_js/node_modules/next/dist/trace/trace.js:79:20)
+error Command failed with exit code 1.
